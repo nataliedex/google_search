@@ -50,14 +50,16 @@ button:hover {
 /*buttons on the top*/
 #grid {
     display: grid;
-    column-gap: 20px;
-    grid-template-columns: 200px 200px;
-    background-color: lightgray;
+    column-gap: 10px;
+    grid-template-columns: 70% auto auto;
+    padding: 5px;
+    border-bottom: 1px solid gray;
+
 }
 
 .grid-item {
     font-size: 15px;
-    text-align: center;
+    text-align: right;
     font-family: "Roboto", sans-serif;
 }
 
